@@ -1,0 +1,6 @@
+devel_space: /home/adminuser/ws_moveitbk/devel
+install: false
+install_space: /home/adminuser/ws_moveitbk/install
+profile: default
+source_space: /home/adminuser/ws_moveitbk/src
+workspace: /home/adminuser/ws_moveitbk

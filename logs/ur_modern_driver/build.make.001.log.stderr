@@ -1,0 +1,11 @@
+In file included from [01m[K/home/adminuser/ws_moveitbk/src/ur_modern_driver/src/ros/hardware_interface.cpp:19:0[m[K:
+[01m[K/home/adminuser/ws_moveitbk/src/ur_modern_driver/include/ur_modern_driver/ros/hardware_interface.h:[m[K In constructor ‘[01m[KVelocityInterface::VelocityInterface(URCommander&, hardware_interface::JointStateInterface&, std::vector<std::__cxx11::basic_string<char> >&, double)[m[K’:
+[01m[K/home/adminuser/ws_moveitbk/src/ur_modern_driver/include/ur_modern_driver/ros/hardware_interface.h:75:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KVelocityInterface::max_vel_change_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   double [01;35m[Kmax_vel_change_[m[K;
+          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveitbk/src/ur_modern_driver/include/ur_modern_driver/ros/hardware_interface.h:74:40:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::array<double, 6> VelocityInterface::prev_velocity_cmd_[m[K’ [[01;35m[K-Wreorder[m[K]
+   std::array<double, 6> velocity_cmd_, [01;35m[Kprev_velocity_cmd_[m[K;
+                                        [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adminuser/ws_moveitbk/src/ur_modern_driver/src/ros/hardware_interface.cpp:50:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KVelocityInterface[m[K::VelocityInterface(URCommander &commander, hardware_interface::JointStateInterface &js_interface,
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
