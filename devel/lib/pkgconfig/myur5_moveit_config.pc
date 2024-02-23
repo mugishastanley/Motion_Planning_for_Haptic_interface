@@ -1,8 +1,0 @@
-prefix=/home/adminuser/ws_moveitbk/devel
-
-Name: myur5_moveit_config
-Description: Description of myur5_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

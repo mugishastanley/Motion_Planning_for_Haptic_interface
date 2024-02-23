@@ -1,8 +1,0 @@
-prefix=/home/adminuser/ws_moveitbk/devel
-
-Name: ur_e_gazebo
-Description: Description of ur_e_gazebo
-Version: 1.2.7
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
